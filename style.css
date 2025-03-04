@@ -1,8 +1,10 @@
+
 *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
 }
+
 .icon{
     color:orangered;
 }
@@ -13,6 +15,20 @@
     cursor:grab;
 }
 .iconItem:hover{
+    font-weight: bold;
+    color:inherit;
+}
+.nav-link{
+    color: gray;
+    font-size: 1.3vw;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.active{
+    font-weight: bold;
+}
+
+.nav-link:hover{
     font-weight: bold;
     color:inherit;
 }
