@@ -3,3 +3,116 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*Body*/
+
+
+.opacidadBg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    top:0;
+    left:0;
+}
+
+.portada{
+    background-image:url(/images/fondo.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    align-items: center;
+    background-position: center center;
+    height: 70vh;
+}
+.textoPortada{
+    position:relative; 
+    font-family:'Figtree';
+    line-height: 1.5;
+    font-weight:500;
+}
+.bienvenida{
+    color:orangered;
+}
+
+.boton{
+    background-color: orangered;
+    color:white;
+    padding: 2rem;
+    border: none;
+}
+.icons{
+    color:white;
+}
+.specialFont{
+    font-family:'Delius';
+    font-weight:bold;
+    font-size: x-large;
+}
+.fa-brands{
+    font-size: xx-large;
+}
+
+.tituloServicios{
+    font-family:'Delius'; 
+    line-height: 0.5;
+}
+.orangeText{
+    color:orangered;
+}
+
+
+.barraSpaciadora{
+    color:orangered; 
+    font-weight: bold;
+}
+
+.fa-solid{
+    color:orangered;
+    border:orangered solid;
+    font-size: 2vw;
+}
+
+.carne, .cocina, .servicio{
+    font-family: 'Figtree';
+    border-left: 1px dimgray solid;
+}
+.subtitulo{
+    font-size: 1.5vw;
+}
+.descripcion{
+    color:dimgray;
+    font-size: 1.4vw;
+}
+.leer{
+    text-decoration: none;
+    color:orangered;
+}
+.leer:hover{
+    color:orangered;
+    cursor: pointer;
+}
+.descripcionOrange{
+    color:orangered;
+
+}
+@media(max-width:768px){
+    .carne, .cocina, .servicio{
+        border-bottom: 1px dimgray solid ;
+        border-left: none;
+    }
+    .subtitulo{
+        font-size: 5vw;
+    }
+    .descripcion{
+        font-size: 5vw;
+    }
+    .fa-solid{
+        font-size: 6vw;
+    }
+    .descripcion .orangeText{
+        font-size: 5vw;
+}
+
+    
+
