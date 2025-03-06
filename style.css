@@ -39,8 +39,14 @@
     background-color: orangered;
     color:white;
     padding: 2rem;
-    border: none;
+    border: 1px solid orangered;
 }
+
+.boton:hover{
+    background:none;
+    color:orangered;
+}
+
 .icons{
     color:white;
 }
@@ -56,7 +62,9 @@
 .tituloServicios{
     font-family:'Delius'; 
     line-height: 0.5;
+    font-weight: 6vw;;
 }
+
 .orangeText{
     color:orangered;
 }
@@ -87,6 +95,7 @@
 .leer{
     text-decoration: none;
     color:orangered;
+    font-size: 1.2vw;
 }
 .leer:hover{
     color:orangered;
@@ -95,6 +104,13 @@
 .descripcionOrange{
     color:orangered;
 
+}
+
+.imgAboutUs{
+    border: 4px solid orangered;
+}
+.orangeTitulo{
+    color:orangered;
 }
 @media(max-width:768px){
     .carne, .cocina, .servicio{
@@ -112,6 +128,10 @@
     }
     .descripcion .orangeText{
         font-size: 5vw;
+    }
+    .leer{
+        font-size: 4vw;
+    }
 }
 
     
