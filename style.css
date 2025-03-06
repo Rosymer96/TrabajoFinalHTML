@@ -3,16 +3,15 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    cursor:pointer;
 }
 
 .icon{
     color:orangered;
 }
 .iconItem{
-    font-size: 1.2vw;
     color:inherit;
     text-decoration: none;
-    cursor:grab;
 }
 .iconItem:hover{
     font-weight: bold;
@@ -20,15 +19,23 @@
 }
 .nav-link{
     color: gray;
-    font-size: 1.3vw;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .active{
-    font-weight: bold;
+    color:orangered;
 }
 
 .nav-link:hover{
     font-weight: bold;
-    color:inherit;
+    color:gray;
+}
+
+@media(max-width:768px){
+    .icon{
+        font-size: x-large;
+    }
+    .nav-item1, .nav-item2, .nav-item3{
+        border-bottom:  1px solid gray;
+    }
 }
