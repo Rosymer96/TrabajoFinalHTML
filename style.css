@@ -6,7 +6,6 @@
 
 /*Body*/
 
-
 .opacidadBg{
     position: absolute;
     width: 100%;
@@ -72,10 +71,19 @@
     color:orangered;
 }
 
-
 .barraSpaciadora{
-    color:orangered; 
-    font-weight: bold;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: orangered;
+}
+
+.barraSpaciadora::after{
+    content: "";
+    height: 2px;        
+    background-color: red;
+    width: 10vw;
+    position: absolute;
 }
 
 .fa-solid{
@@ -159,6 +167,9 @@
     }
     .boton{
         font-size: 4vw;
+    }
+    .barraSpaciadora::after{
+        width: 30vw;
     }
 }
 
