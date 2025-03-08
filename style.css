@@ -120,7 +120,7 @@
     font-size: 2.5vw;
 }
 
-.orangeText{
+.orangeText, .spanOrange{
     color:orangered;
 }
 
@@ -133,7 +133,7 @@
 
 .barraSpaciadora::after{
     content: "";
-    height: 6px;        
+    height: 2px;        
     background-color: red;
     width: 10vw;
     position: absolute;
@@ -177,7 +177,7 @@
 }
 .barraSpaciadora2::after{
     content: "";
-    height: 6px;        
+    height: 2px;        
     background-color: red;
     width: 8vw;
     position: absolute;
@@ -306,10 +306,17 @@ footer{
     font-family: 'Figtree', sans-serif;
     font-size: 1vw;
 }
+.iconSubir{
+    color:orangered;
+    font-size: 3vw;
+}
 
 @media(max-width:768px){
     footer{
         font-size: 4vw;
+    }
+    .iconSubir{
+        font-size: 8vw;
     }
 }
 
