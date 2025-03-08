@@ -304,4 +304,12 @@ footer{
     width: 100%;
     z-index: 1000;
     font-family: 'Figtree', sans-serif;
+    font-size: 1vw;
 }
+
+@media(max-width:768px){
+    footer{
+        font-size: 4vw;
+    }
+}
+
