@@ -284,3 +284,22 @@
 }
 
 
+
+.avisoLegal, .cookies{
+    text-decoration: none;
+    color:white;
+
+}
+
+.avisoLegal:hover, .cookies:hover{
+    color:orangered;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    font-family: 'Figtree', sans-serif;
+}
