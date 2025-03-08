@@ -12,6 +12,7 @@
 .iconItem{
     color:inherit;
     text-decoration: none;
+    font-size: 1vw;
 }
 .iconText{
     font-family: 'Figtree', sans-serif;
@@ -26,6 +27,7 @@
 .nav-link{
     color: gray;
     font-family:'Figtree', sans-serif;
+    font-size: 1.2vw;
 }
 
 .active{
@@ -45,3 +47,174 @@
         border-bottom:  1px solid gray;
     }
 }
+
+/*Body*/
+
+.opacidadBg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    top:0;
+    left:0;
+}
+
+.portada{
+    background-image:url(/images/fondo.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    align-items: center;
+    background-position: center center;
+    height: 70vh;
+}
+.textoPortada{
+    position:absolute; 
+    font-family:'Figtree';
+    font-weight:500;
+}
+.bienvenida{
+    color:orangered;
+    font-size: 1.1rem;
+}
+.textoPortada .text-white{
+    font-size: 1rem;
+}
+.boton{
+    background-color: orangered;
+    color:white;
+    border: 1px solid orangered;
+    font-size: 0.9rem;
+}
+
+.boton:hover{
+    background:none;
+    color:orangered;
+}
+
+.icons{
+    color:white;
+}
+.icons:hover{
+    color:white;
+}
+.specialFont{
+    font-family:'Delius';
+    font-weight:bold;
+    font-size:1.6rem;
+}
+.iconSM{
+    font-size: xx-large;
+}
+
+.tituloServicios{
+    font-family:'Delius'; 
+}
+
+.orangeText{
+    color:orangered;
+}
+
+.barraSpaciadora{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: orangered;
+}
+
+.barraSpaciadora::after{
+    content: "";
+    height: 2px;        
+    background-color: red;
+    width: 10vw;
+    position: absolute;
+}
+
+.fa-gears, .fa-truck, .fa-heart{
+    color:orangered;
+    border:orangered solid;
+    font-size: 2vw;
+}
+
+.carne, .cocina, .servicio{
+    font-family: 'Figtree';
+    border-left: 1px dimgray solid;
+}
+.subtitulo{
+    font-size: 1.5vw;
+}
+.descripcion{
+    color:dimgray;
+    font-size: 1.2vw;
+    line-height: 1.3;
+}
+.leer{
+    text-decoration: none;
+    color:orangered;
+    font-size: 1.4vw;
+}
+.leer:hover{
+    color:orangered;
+    cursor: pointer;
+}
+.descripcionOrange{
+    color:orangered;
+
+}
+
+.imgBorde{
+    position: relative;
+    display: inline-block;
+}
+
+.imgBorde .imgAboutUs{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.imgBorde::before{
+    content: " ";
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    right: -3px;
+    bottom: -3px;
+    border: 4px solid orangered;
+    transform: rotate(10deg);
+    z-index:-1;
+}
+.imgBorde:hover::before{
+    transform: rotate(0deg);
+}
+.orangeTitulo{
+    color:orangered;
+}
+@media(max-width:768px){
+    .carne, .cocina, .servicio{
+        border-bottom: 1px dimgray solid ;
+        border-left: none;
+    }
+    .subtitulo{
+        font-size: 5vw;
+    }
+    .descripcion{
+        font-size: 5vw;
+    }
+    .fa-solid{
+        font-size: 6vw;
+    }
+    .descripcion .orangeText{
+        font-size: 5vw;
+    }
+    .leer{
+        font-size: 5vw;
+    }
+    .boton{
+        font-size: 4vw;
+    }
+    .barraSpaciadora::after{
+        width: 30vw;
+    }
+}
+
+
