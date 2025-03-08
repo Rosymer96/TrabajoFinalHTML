@@ -108,6 +108,10 @@
 
 .tituloServicios{
     font-family:'Delius'; 
+    font-size: 1.5vw;
+}
+.blackTitulo{
+    font-size: 2.5vw;
 }
 
 .orangeText{
@@ -123,7 +127,7 @@
 
 .barraSpaciadora::after{
     content: "";
-    height: 2px;        
+    height: 6px;        
     background-color: red;
     width: 10vw;
     position: absolute;
@@ -158,9 +162,20 @@
 }
 .descripcionOrange{
     color:orangered;
-
 }
-
+.barraSpaciadora2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: orangered;
+}
+.barraSpaciadora2::after{
+    content: "";
+    height: 6px;        
+    background-color: red;
+    width: 8vw;
+    position: absolute;
+}
 .imgBorde{
     position: relative;
     display: inline-block;
@@ -212,6 +227,29 @@
     }
     .iconSM{
         font-size: 6vw;
+    }
+      
+    .tituloServicios{
+        font-size: 5vw;
+    }
+    .blackTitulo{
+        font-size: 7vw;
+    }
+
+    .orangeText{
+        color:orangered;
+    }
+
+    .barraSpaciadora::after{
+        content: "";
+        height: 1.5px;        
+        background-color: red;
+        width: 10vw;
+        position: absolute;
+    }
+    .barraSpaciadora2::after{
+        height: 1.5px;        
+        width: 20vw;
     }
     .carne, .cocina, .servicio{
         border-bottom: 1px dimgray solid ;
