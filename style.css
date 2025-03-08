@@ -65,7 +65,7 @@
 }
 
 .portada{
-    background-image:url(/images/fondo.jpg) ;
+    background-image:url(./images/fondo.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -311,5 +311,12 @@ footer{
     footer{
         font-size: 4vw;
     }
+    .main{
+        foo
+    }
+}
+
+main{
+    padding-bottom: 10vh;
 }
 
