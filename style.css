@@ -46,6 +46,9 @@
     .nav-item1, .nav-item2, .nav-item3{
         border-bottom:  1px solid gray;
     }
+    .nav-link{
+        font-size: 4vw;
+    }
 }
 
 /*Body*/
@@ -91,6 +94,7 @@
     color:white;
     border: 1px solid orangered;
     font-size: 1vw;
+    font-family: 'Figtree', sans-serif;
 }
 
 .boton:hover{
