@@ -6,6 +6,8 @@
     cursor:pointer;
 }
 
+/* Header */
+
 .icon{
     color:orangered;
 }
@@ -283,7 +285,7 @@
     
 }
 
-
+/* Footer */
 
 .avisoLegal, .cookies{
     text-decoration: none;
