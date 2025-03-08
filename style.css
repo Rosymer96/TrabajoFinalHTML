@@ -64,7 +64,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    align-items: center;
     background-position: center center;
     height: 70vh;
 }
@@ -75,36 +74,36 @@
 }
 .bienvenida{
     color:orangered;
-    font-size: 1.1rem;
+    font-size: 1.2vw;
 }
 .textoPortada .text-white{
-    font-size: 1rem;
+    font-size: 1.1vw;
+    line-height: 2;
 }
+.specialFont{
+    font-family:'Delius';
+    font-weight:bold;
+    font-size:1.8vw;
+}
+
 .boton{
     background-color: orangered;
     color:white;
     border: 1px solid orangered;
-    font-size: 0.9rem;
+    font-size: 1vw;
 }
 
 .boton:hover{
     background:none;
     color:orangered;
 }
-
-.icons{
-    color:white;
-}
-.icons:hover{
-    color:white;
-}
-.specialFont{
-    font-family:'Delius';
-    font-weight:bold;
-    font-size:1.6rem;
-}
 .iconSM{
-    font-size: xx-large;
+    font-size: 1.7vw;
+    color:white;
+}
+  
+.iconSM:hover{
+    color:white;
 }
 
 .tituloServicios{
@@ -190,6 +189,30 @@
     color:orangered;
 }
 @media(max-width:768px){
+    .textoPortada{
+        line-height: 1;
+    }
+    .specialFont{
+        font-family:'Delius';
+        font-weight:bold;
+        font-size:6vw;
+    }
+    .bienvenida{
+        color:orangered;
+        font-size: 4vw;
+    }
+    .textoPortada .text-white{
+        font-size: 3.8vw;
+    }
+    
+    .boton{
+        background-color: orangered;
+        color:white;
+        border: 1px solid orangered;
+    }
+    .iconSM{
+        font-size: 6vw;
+    }
     .carne, .cocina, .servicio{
         border-bottom: 1px dimgray solid ;
         border-left: none;
@@ -215,6 +238,7 @@
     .barraSpaciadora::after{
         width: 30vw;
     }
+    
 }
 
 
